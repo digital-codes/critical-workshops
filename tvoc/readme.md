@@ -1,4 +1,4 @@
-Die deutsche Version ist [hier](/liesmich.md)
+Die deutsche Version ist [hier](./liesmich.md)
 
 ## Setup
 The sensor setup requires 4 components plus cables. 
