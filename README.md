@@ -1,2 +1,2 @@
 # critical-workshops
-Workshops in Sensors, related to Critical Zones exhibition
+Workshops on Sensors, related to Critical Zones exhibition
