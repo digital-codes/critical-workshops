@@ -5,7 +5,7 @@ Das Sensor-Setup erfordert 4 Komponenten plus Kabel.
 Vermutlich werden wir eine kleine Plattform für die Montage der Sensoren bereitstellen.
 Falls das nicht geht, wird usner Aufbau etwas unorderntlicher sein, wie unten zu sehen. Es sollte jedoch gleich funktionieren.
 
-! [] (setup1.jpg)
+![](setup1.jpg)
 
 ### Mikrocontroller
 ESP32-basiertes Entwicklungskit [Atom Matrix] (https://m5stack.com/products/atom-matrix-esp32-development-kit)
@@ -29,7 +29,7 @@ Wir müssen ein Programm schreiben, um dem Mikrocontroller (dem *atom*, erinners
 
 Um dies zu erreichen, benötigen wir einige Werkzeuge, wie unten gezeigt:
 
-! [] (swarch.jpg)
+![](swarch.jpg)
 
 Von links nach rechts gegen den Uhrzeigersinn:
  * Der Atom und die Sensoren
@@ -53,7 +53,7 @@ Falls Sie bereits mit Arduino oder ähnlichen Dingen vertraut sind: Ja, es gibt 
 ### Software-Downloads
 Die [Download-Seite] (https://m5stack.com/pages/download) von M5Stack bietet einige Programme für alle wichtigen Plattformen (Windows, MacOS und Linux):
 
-! [] (m5downs.png)
+![](m5downs.png)
 
 Wir benötigen M5Burner. Bitte laden Sie die Version für Ihr Betriebssystem herunter und installieren Sie sie. Möglicherweise benötigen Sie auch den CP2104-Treiber (wahrscheinlich nicht unter Linux). Dies ist alles, was Sie brauchen, wenn Sie dem *einfachen Weg* folgen.
 
