@@ -41,13 +41,6 @@ In case you've never written a program before: don't be afraid! On our *easy tra
 
 In case you're already familiar with Arduino or similar stuff: yes, there is a fast track as well. Skip over to the [quick intro](#quick-intro) after checking the [downloads section](#software-downloads).
 
-### Slow Intro
-... not yet written ...
-
-
-### Quick Intro
-... not yet written ...
-
 
 ### Software Downloads
 The [download page](https://m5stack.com/pages/download) of M5Stack provides a couple of programs for all major platforms (Windows, MacOS and Linux):
@@ -59,6 +52,13 @@ We need M5Burner, please download and install the version for your operating sys
 The UIFlow-Desktop-IDE is the equivalent to the M5Stack server, so you can run the development environment directly on your computer. Please note: we couldn't test this approach yet. So if you get stuck we might not be able to help immediately.
 
 Arduino-IDE is a completely different kind of tool. While the atom is not an Arduino with respect to physical layout it is software compatible to a large extent. The M5Stack Library gives your Arduino-IDE access to all the features of the atom and the sensors. No *blockly* neither *python* though - but we didn't talk about that anyway yet.
+
+### Slow Intro
+... not yet written ...
+
+
+### Quick Intro
+... not yet written ...
 
 
 

@@ -40,15 +40,7 @@ Von links nach rechts gegen den Uhrzeigersinn:
 
 Falls Sie noch nie ein Programm geschrieben haben: Haben Sie keine Angst! Auf unserer *einfachen Strecke* wird es einfacher als Sie vielleicht denken.
 
-Falls Sie bereits mit Arduino oder ähnlichen Dingen vertraut sind: Ja, es gibt auch eine Überholspur. Wechseln Sie zum [Quick Intro](#Quick Intro), nachdem Sie den Abschnitt [Downloads](#Software-Downloads) überprüft haben.
-
-### Ausführliche Einführung
-... noch nicht geschrieben ...
-
-
-### Kurze Einführung
-... noch nicht geschrieben ...
-
+Falls Sie bereits mit Arduino oder ähnlichen Dingen vertraut sind: Ja, es gibt auch eine Überholspur. Gehen Sie zur [kurzen Einführung](#Quick Intro), nachdem Sie den Abschnitt [Downloads](#Software-Downloads) erledigt haben.
 
 ### Software-Downloads
 Die [Download-Seite](https://m5stack.com/pages/download) von M5Stack bietet einige Programme für alle wichtigen Plattformen (Windows, MacOS und Linux):
@@ -60,3 +52,11 @@ Wir benötigen M5Burner. Bitte laden Sie die Version für Ihr Betriebssystem her
 Die UIFlow-Desktop-IDE entspricht dem M5Stack-Server, sodass Sie die Entwicklungsumgebung direkt auf Ihrem Computer ausführen können. Bitte beachten Sie: Wir konnten diesen Ansatz noch nicht testen. Wenn Sie also nicht weiterkommen, können wir Ihnen möglicherweise nicht sofort helfen.
 
 Arduino-IDE ist eine völlig andere Art von Werkzeug. Während das Atom in Bezug auf das physikalische Layout kein Arduino ist, ist es weitgehend softwarekompatibel. Die M5Stack-Bibliothek ermöglicht Ihrer Arduino-IDE den Zugriff auf alle Funktionen des Atoms und der Sensoren. Kein *Blockly* und kein *Python* - aber darüber haben wir noch nicht gesprochen.
+
+### Ausführliche Einführung
+... noch nicht geschrieben ...
+
+
+### Kurze Einführung
+... noch nicht geschrieben ...
+
