@@ -1,3 +1,5 @@
+Die deutsche Version ist [hier](/liesmich.md)
+
 ## Setup
 The sensor setup requires 4 components plus cables. 
 We aim to provide a small platform to mount the sensors onto. 
