@@ -1,5 +1,13 @@
 # Installation on Linux
 
+To use serial devices you as the user may need to be in certain group. 
+On a debian/ubuntu based system this is group `dialout`.
+Check the device file for the group and add the current user to it, e.g. with `sudo usermod -a -G dialout $USER`, then you may need to restart your desktop environment (logout/-in).
+As a quick workaround you can login via ssh locally `ssh -X $USER@localhost` then on that shell the group is set.
+
+    ls -la /dev/ttyUSB0
+    crw-rw---- 1 root dialout 188, 0 Feb 22 09:17 /dev/ttyUSB0
+
 
 ## m5burner
 
@@ -101,7 +109,7 @@ APIKEY: YOURAPIKEY
 ```
 
 The device creates a Wifi which is named like `M5-YOURAPIKEY` and a webserver reachable after connecting to this via the IP/URL: [192.168.4.1](http://192.168.4.1/)
-* configure your wifi password (technically the password is sent unencrypted via a POST request like `http://192.168.4.1/configure?ssid=YOURSSID&password=YOURWIFIPW`)
+* configure your wifi password (technically the password is sent unencrypted via a GET request like `http://192.168.4.1/configure?ssid=YOURSSID&password=YOURWIFIPW`)
     * If you get the warning `×_× WiFi connection failed Click here return configure page.`, then try again (password wrong?)
     * success indicated by `^_^ WiFi connection success Reset device now ..`
         * reset and your device should can now connect to your network, indicated at startup by a red glow (*Wifi connecting*), followed by a blue one (*Wifi connection success*).
@@ -109,6 +117,7 @@ The device creates a Wifi which is named like `M5-YOURAPIKEY` and a webserver re
     
 :::alert
  TODO: how to connect? ui thing cannot find it
+Error messages are: `/dev/ttyUSB0 [ Disconnected ]`￼`Upload code failed, maybe your device is offline check it and retry`
 :::
 
 <!-- 
